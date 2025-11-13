@@ -122,8 +122,3 @@ train_model(modelB, epochs=2)
 accB = evaluate(modelB)
 
 # %%
-import torch as tf
-
-print(tf.cuda.is_available())
-
-# %%
